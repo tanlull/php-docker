@@ -12,11 +12,13 @@ docker run --restart=always --name tan-php -v c:/tmp/php-code:/var/www/html -d -
 
 # Code path in Window just put "index.php" to the folder
 
+```
 c:/tmp/php-code
+```
 
 # Run with
 
-localhost:8888
+http://localhost:8888
 
 # Get HTTPs File with redirected
 
