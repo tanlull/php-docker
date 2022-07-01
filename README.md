@@ -1,27 +1,17 @@
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
-
-# You can Run PHP via Docker with this command :
-
+## You can Run PHP via Docker with this command :
 ```
 docker run --restart=always --name tan-php -v c:/tmp/php-code:/var/www/html -d -p 8888:80 richarvey/nginx-php-fpm:latest
 ```
 
-# Code path in Window just put "index.php" to the folder
-
+## Code path in Window just put "index.php" to the folder
 ```
 c:/tmp/php-code
 ```
 
-# Run with
-
+## Run with
 http://localhost:8888
 
-# Get HTTPs File with redirected
-
+## Get HTTPs File info with https redirection
 ```php
 function get_remote_file_info($url)
 {
