@@ -25,9 +25,8 @@ function get_remote_file_info($url)
 }
 
 
-$url = "https://line1212.ntplc.co.th/image-line/1656647746828.png";
 
-$url1 = "https://github.com/tanlull/test_db/raw/master/images/house2.png";
+$url = "https://github.com/tanlull/test_db/raw/master/images/house2.png";
 
 echo "<br>file = $url";
 
